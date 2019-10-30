@@ -1,5 +1,5 @@
 provider "google" {
-  credentials = "${file("account.json")}"
-  project     = "my-project-id"
+  credentials = "${file("service-account.json")}"
+  project     = "qwiklabs-gcp-00-a6d1436f0347"
   region      = "us-central1"
 }
