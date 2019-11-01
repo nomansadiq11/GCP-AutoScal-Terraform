@@ -77,7 +77,7 @@ resource "google_compute_instance_template" "instancetemplate" {
     scopes = ["userinfo-email", "compute-ro", "storage-ro"]
   }
 
-#    metadata_startup_script = "echo hi > /test.txt"
+   metadata_startup_script = "echo hi > /install.sh"
 
 }
 
